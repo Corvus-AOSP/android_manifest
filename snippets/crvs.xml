@@ -38,6 +38,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="corvus" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
   <project path="external/selinux" name="android_external_selinux" remote="corvus" />
   <project path="external/zlib" name="android_external_zlib" remote="corvus" />
