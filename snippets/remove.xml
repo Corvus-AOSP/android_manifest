@@ -78,6 +78,8 @@
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/arm-optimized-routines" />
