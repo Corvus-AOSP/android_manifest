@@ -9,7 +9,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="lineage" revision="lineage-18.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" revision="lineage-18.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" revision="lineage-18.0"  /> 
-
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" revision="lineage-18.0" />
   <!-- Hardware -->
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
