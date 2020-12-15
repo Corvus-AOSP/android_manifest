@@ -98,6 +98,9 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="corvus" revision="11-8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="corvus" revision="11-8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="corvus" revision="11-8150" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="corvus" />
