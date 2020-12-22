@@ -10,6 +10,7 @@
 		
 <remote name="corvus"
         fetch="https://github.com/Corvus-R/"
+        review="review.corvusrom.com"
         revision="refs/heads/11" />
 
   <remote  name="device"
