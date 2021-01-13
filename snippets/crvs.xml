@@ -61,7 +61,6 @@
 
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="corvus" revision="11-legacy-um"/>
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="corvus" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="corvus" revision="11-vndr"/>
 
   <!-- Hardware -->
