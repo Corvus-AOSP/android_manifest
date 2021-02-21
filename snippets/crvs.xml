@@ -47,6 +47,7 @@
   <project path="external/libpng" name="android_external_libpng" remote="corvus" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="corvus" />
   <project path="external/motorola/faceunlock" name="merser2005/external_motorola_faceunlock" remote="gitlab" revision="11" clone-depth="1" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
