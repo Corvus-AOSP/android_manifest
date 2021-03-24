@@ -72,7 +72,6 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="corvus" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="corvus" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="corvus" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="corvus" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="corvus" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="corvus" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="corvus" />
@@ -141,7 +140,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="corvus" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="corvus" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="corvus" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="corvus" revision="11" />
   <project path="vendor/themes" name="android_vendor_themes" remote="corvus" />
   <project path="vendor/qcom/opensource/cryptfs/hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="corvus" />
