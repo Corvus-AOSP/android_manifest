@@ -45,7 +45,8 @@
   <project path="external/selinux" name="android_external_selinux" remote="corvus" />
   <project path="external/libpng" name="android_external_libpng" remote="corvus" />
   <project path="external/motorola/faceunlock" name="merser2005/external_motorola_faceunlock" remote="gitlab" revision="11" clone-depth="1" />
-  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
+  <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0"/>
+
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
