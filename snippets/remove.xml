@@ -87,6 +87,14 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/cldr" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
