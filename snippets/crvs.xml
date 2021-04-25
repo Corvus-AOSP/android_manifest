@@ -115,6 +115,7 @@
  
 
   <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="corvus" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="corvus" clone-depth="1" />
 
   <!-- Packages -->

@@ -75,6 +75,7 @@
   <!-- External -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/arvo" />
   <remove-project name="platform/external/google-fonts/barlow" />
@@ -83,7 +84,6 @@
   <remove-project name="platform/external/google-fonts/zilla-slab" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/arm-optimized-routines" />
@@ -122,6 +122,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
 
   <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="kernel/prebuilts/4.19/arm64" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
