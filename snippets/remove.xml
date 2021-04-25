@@ -154,4 +154,6 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/security" />
 
+  <!-- Tools repos -->
+  <remove-project name="platform/tools/metalava" />
 </manifest>
