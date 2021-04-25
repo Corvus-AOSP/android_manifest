@@ -125,7 +125,6 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
