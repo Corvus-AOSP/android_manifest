@@ -72,7 +72,7 @@
 
    <!-- Custom additions -->
    <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
-   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
  </manifest>
 
