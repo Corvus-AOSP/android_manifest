@@ -45,6 +45,9 @@ make corvus
  =======
 
  * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**HavocOS**](https://github.com/Havoc-OS)
+ * [**LineageOS**](https://github.com/LineageOS/)
 
 # Submitting Patches #
 
