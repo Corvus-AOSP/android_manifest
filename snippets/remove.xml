@@ -83,11 +83,8 @@
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
-  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
-  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/boringssl" />
