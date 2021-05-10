@@ -72,7 +72,6 @@
 
    <!-- Custom additions -->
    <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
-   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
    <!-- System Repos -->
    <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
