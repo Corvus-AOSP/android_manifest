@@ -143,6 +143,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="corvus" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="corvus" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="corvus" />
+  <project path="vendor/corvus" name="vendor_corvus" remote="corvus" />
   <project path="vendor/themes" name="android_vendor_themes" remote="corvus" />
   <project path="vendor/gms" name="victor10520/vendor_gms" remote="gitlab" revision="11" clone-depth="1" />
 
