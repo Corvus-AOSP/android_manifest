@@ -21,6 +21,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" />
   <project path="development" name="android_development" remote="corvus" />
   <project path="art" name="android_art" remote="corvus" />
+  <project path="libcore" name="android_libcore" remote="corvus" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="corvus" >
@@ -42,10 +43,11 @@
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="corvus" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
-  <project path="external/selinux" name="android_external_selinux" remote="corvus" />
   <project path="external/libpng" name="android_external_libpng" remote="corvus" />
+  <project path="external/zlib" name="android_external_zlib" remote="corvus" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="corvus" />
   <project path="external/motorola/faceunlock" name="victor10520/external_motorola_faceunlock" remote="gitlab" revision="11" clone-depth="1" />
-  <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0"/>
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
 
 
   <!-- Frameworks -->
