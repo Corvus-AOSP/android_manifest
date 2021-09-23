@@ -32,8 +32,8 @@ lunch corvus_device-userdebug
 # Build the ROM
 make corvus
 ```
-# XDA Template
-[![XDA-Template](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/XDADevelopers_button.png)](https://raw.githubusercontent.com/Corvus-ROM/android_manifest/11/xda)
+# Corvus Forums Template
+[![Corvus_Forums-Template](https://raw.githubusercontent.com/SahilKhatkar11/Corvus_forums-logo/main/Corvus_Forums_Logo.png)](https://raw.githubusercontent.com/Corvus-ROM/android_manifest/11/corvus_forums)
 
 # Maintainership form
 [![Form](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Submission_button.png)](https://docs.google.com/forms/d/e/1FAIpQLSeOEzQXfNnPehPQRXxmt3L5FYc5neOhEE3m6ZW_xbIuuQ-dCg/viewform?usp=sf_link)

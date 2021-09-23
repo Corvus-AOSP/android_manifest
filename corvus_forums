@@ -1,0 +1,79 @@
+Title
+<Device name> [<device name>] | Corvus-OS Official <Corvus version> is out !
+Corvus-OS
+
+
+
+Corvus OS a ROM with many useful & required Customizations. Corvus OS is based on Android Opensource Project (AOSP). Our objectives are a stable and feature ROM that can be enjoyed by many devices. We won't say that Corvus is better ROM than others, but we always try to give you the best.
+
+
+Corvus OS <version> | <version name>
+<Official/Beta-Official> | Android <10/11/12/69>
+Build Date : 27-07-2021
+
+Device : <device name> | <Codename>
+Maintainer : <name>
+
+Source Changelogs <hyperlink> don't copy paste and use bitly links
+Device Changelogs <hyperlinn> don't copy paste and use bitly links
+
+Community Support Group <hyperlink>
+Device Support Group <hyperlink>
+
+Note
+If you do not find the latest builds in the above link kindly find it by searching for "Corvus Telegram Channel" on Google and search for your device in the channel.
+
+
+ROM OS Version: Android 11
+ROM Kernel: Linux X.X
+ROM Firmware Required:
+
+<attach a screenshot of about section/android version>
+
+
+We the team behind Corvus OS put our valuable time and energy to bring you an OS of great caliber with regular updates and security patches. Please share some love and support to the Team by making a contribution so we can continue to improve the software experience of your device.
+
+Donate : https://telegra.ph/Corvus-OS-Donation-Links-02-25
+
+
+Flashing Instructions
+1. First important step is to Backup (though depends on you if you wanna be safe or no :P)
+2. Download Corvus Latest ROM Zip
+3. Flash ROM Zip & Vendor (if applicable according to your device manual :P)
+4. Flash any add-ons if you want to like Gapps, Magisk, Etc.
+5. Reboot & enjoy !
+
+
+Corvus-OS Team
+Ritzz - Lead Developer/Maintainer
+Zeeshan - Core Developer/Maintainer
+Deadmanxxd - UI/UX Designer/Maintainer
+Trishiraj - Core Developer/Maintainer
+Victor - Core Developer/Maintainer
+Jughead - Project Manager/Contributor
+
+
+FAQs
+1. Corvus OS is based on?
+Ans. Its based on AOSP
+2. Do we need to flash Gapps?
+Ans. Depends on your device variant. If your official device support has Vanilla version then you have to flash Gapps according to your choice.
+3. When will be the next update! Any ETAs?
+Ans. There will be regular updates as and when the team is ready to push a new update. Kindly do not ask for ETAs.
+4. I need this feature/ I found some bugs!
+Ans. Firstly if u find any bug then please check with your add-ons like magisk module, zips, etc u flashed and whether its related or no. Though if your sure that its from rom side then kindly grab a Logcat and report us..
+Secondly for feature request yes u can request them on our forums or in the community group.
+
+
+Corvus-OS Hub
+Website: https://www.corvusrom.com/
+GitHub: https://github.com/Corvus-R/
+Jenkins: http://jenkins.corvusrom.com/
+Gerrit: https://review.corvusrom.com/
+Forums : https://forums.corvusrom.com/
+Updates Channel: https://t.me/CorvusChannel
+Community Group: https://t.me/CorvusCommunityOfficial
+Jenkins CI: https://t.me/corvusci
+Screenshots: https://t.me/CorvusScreenshots
+Wallpapers: https://t.me/CorvusWalls
+Build Support Group: https://t.me/corvusbuildsupport
