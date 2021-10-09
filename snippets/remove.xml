@@ -94,6 +94,9 @@
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />

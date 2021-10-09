@@ -52,6 +52,10 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="corvus" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" clone-depth="1" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="corvus" />
+  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="corvus" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="corvus" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="corvus" />
 
 
   <!-- Frameworks -->
