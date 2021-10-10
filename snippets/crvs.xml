@@ -122,6 +122,7 @@
   <project path="system/security" name="android_system_security" remote="corvus" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="corvus" />
   <project path="system/media" name="android_system_media" remote="corvus" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="corvus" />
  
 
   <!-- Prebuilts -->
