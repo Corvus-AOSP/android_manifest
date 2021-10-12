@@ -123,6 +123,7 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="corvus" />
   <project path="system/media" name="android_system_media" remote="corvus" />
   <project path="system/linkerconfig" name="android_system_linkerconfig" remote="corvus" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="corvus" />
  
 
   <!-- Prebuilts -->
