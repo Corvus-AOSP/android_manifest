@@ -168,6 +168,7 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/iorap" />
 
   <!-- Tools repos -->
   <remove-project name="platform/tools/metalava" />
