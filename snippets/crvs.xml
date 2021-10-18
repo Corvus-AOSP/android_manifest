@@ -125,6 +125,7 @@
   <project path="system/linkerconfig" name="android_system_linkerconfig" remote="corvus" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="corvus" />
   <project path="system/iorap" name="android_system_iorap" remote="corvus" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="corvus" />
  
 
   <!-- Prebuilts -->
