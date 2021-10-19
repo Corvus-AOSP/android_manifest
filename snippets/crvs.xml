@@ -56,7 +56,7 @@
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="corvus" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="corvus" />
   <project path="external/sqlite" name="android_external_sqlite" remote="corvus" />
-
+  <project path="external/cpu_features" name="android_external_cpu_features" remote="corvus" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />

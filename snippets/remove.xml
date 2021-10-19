@@ -97,6 +97,7 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/cpu_features" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
