@@ -98,6 +98,7 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/lz4" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
