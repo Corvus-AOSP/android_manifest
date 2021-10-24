@@ -59,6 +59,7 @@
   <project path="external/cpu_features" name="android_external_cpu_features" remote="corvus" />
   <project path="external/lz4" name="android_external_lz4" remote="corvus" />
   <project path="external/libcxx" name="android_external_libcxx" remote="corvus" />
+  <project path="external/skia" name="android_external_skia" remote="corvus" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />

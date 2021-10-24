@@ -99,6 +99,7 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/lz4" />
+  <remove-project name="platform/external/skia" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
