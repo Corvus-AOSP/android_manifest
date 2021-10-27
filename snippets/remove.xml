@@ -102,6 +102,7 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/vixl" />
+  <remove-project name="platform/external/python/cpython2" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
