@@ -61,6 +61,7 @@
   <project path="external/libcxx" name="android_external_libcxx" remote="corvus" />
   <project path="external/skia" name="android_external_skia" remote="corvus" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="corvus" />
+  <project path="external/vixl" name="android_external_vixl" remote="corvus" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
