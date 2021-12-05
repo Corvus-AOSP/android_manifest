@@ -73,6 +73,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="corvus" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="corvus" />
   <project path="hardware/corvus/interfaces" name="android_hardware_corvus_interfaces" remote="corvus" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="corvus" revision="12"/>
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="corvus" revision="12-caf" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="corvus" revision="12-caf"/>
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="corvus" />

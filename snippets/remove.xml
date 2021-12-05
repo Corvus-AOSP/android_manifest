@@ -128,7 +128,7 @@
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
-
+  <remove-project name="platform/hardware/qcom/wlan" />
   <!-- System -->
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/tools/mkbootimg" />
