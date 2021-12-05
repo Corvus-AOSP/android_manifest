@@ -66,6 +66,7 @@
   <project path="device/corvus/sepolicy" name="android_device_corvus_sepolicy" remote="corvus" />
 
   <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="corvus" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="corvus" revision="12-legacy-um"/>
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="corvus" revision="12-vndr"/>
 
