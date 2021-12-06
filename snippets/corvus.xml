@@ -52,6 +52,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="corvus" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="corvus" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="corvus" />
+  <project path="external/themelib" name="android_external_themelib" groups="pdk" remote="corvus" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
