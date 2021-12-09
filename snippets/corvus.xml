@@ -45,7 +45,6 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="corvus" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="corvus" />
   <project path="external/colorkt" name="android_external_colorkt" remote="corvus" />
-  <project path="external/json-c" name="android_external_json-c" remote="corvus" />
   <project path="external/selinux" name="android_external_selinux" remote="corvus" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="corvus" />
