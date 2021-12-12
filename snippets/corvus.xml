@@ -125,5 +125,6 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="corvus" />
   <project path="vendor/corvus" name="vendor_corvus" remote="corvus" />
+  <project path="vendor/google/gms" name="ZVNexus/android_vendor_google_gms" remote="gitlab" revision="twelve" clone-depth="1" />
 
 </manifest>
