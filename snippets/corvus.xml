@@ -60,7 +60,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="corvus" revision="12-test" />
   <project path="frameworks/av" name="android_frameworks_av" remote="corvus" revision="12-test" />
   <project path="frameworks/native" name="android_frameworks_native" remote="corvus" revision="12-test" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="corvus" revision="12-test" />
+  <project path="frameworks/base" name="android_frameworks_base_test" remote="corvus" revision="12-test" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="corvus" revision="12-test" />
 
   <!-- Device -->
@@ -110,7 +110,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="corvus" revision="12-test" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="corvus" revision="12-test" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="corvus" revision="12-test" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="corvus" revision="12-test" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings_test" remote="corvus" revision="12-test" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="corvus" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="corvus" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="corvus" revision="12-test" />
