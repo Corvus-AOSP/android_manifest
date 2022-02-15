@@ -53,6 +53,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="corvus" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="corvus" revision="12-test" />
   <project path="external/themelib" name="android_external_themelib" groups="pdk" remote="corvus" />
+  <project path="external/jemalloc_new" name="ProtonAOSP/android_external_jemalloc_new" revision="sc" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" revision="12-test" />
