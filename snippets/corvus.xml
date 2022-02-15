@@ -53,7 +53,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="corvus" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="corvus" revision="12-test" />
   <project path="external/themelib" name="android_external_themelib" groups="pdk" remote="corvus" />
-  <project path="external/jemalloc_new" name="ProtonAOSP/android_external_jemalloc_new" revision="sc" />
+  <project path="external/jemalloc_new" name="ProtonAOSP/android_external_jemalloc_new" remote="gh" revision="sc" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" revision="12-test" />
@@ -129,7 +129,7 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="corvus" />
   <project path="vendor/corvus" name="vendor_corvus" remote="corvus" revision="12-test" />
-  <project path="vendor/themes" name="vendor_themes" remote="corvus" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="corvus" />
