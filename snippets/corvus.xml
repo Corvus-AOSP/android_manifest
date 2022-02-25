@@ -119,6 +119,7 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="corvus" revision="12-test" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="corvus" revision="12-test" />
   <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="gh" revision="twelve" />
+  <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="corvus" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="corvus" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="corvus" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="corvus" revision="12-test" />
