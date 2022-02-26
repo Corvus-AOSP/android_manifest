@@ -18,7 +18,7 @@
            revision="12" />
 
   <project path="art" name="android_art" remote="corvus" revision="12-test" />
-  <project path="bionic" name="android_bionic" remote="corvus" />
+  <project path="bionic" name="android_bionic" remote="corvus" revision="12-test" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" revision="12-test" />
   <project path="libcore" name="android_libcore" remote="corvus" revision="12-test" />
   <project path="manifest" name="android_manifest" remote="corvus" revision="12-test" />
