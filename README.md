@@ -1,6 +1,6 @@
 ### Corvus ROM ###
 
-![CorvusROM](https://raw.githubusercontent.com/Astile97/extras/master/corvus/cover.PNG)
+![CorvusROM](https://raw.githubusercontent.com/Corvus-R/android_manifest/12-test/corvus_banner.png)
 <p align="center">
 
 [![Sourceforge](https://img.shields.io/sourceforge/dm/corvus-os?color=1d91f0&label=RavenLair%20downloads&style=for-the-badge&labelColor=121217&logo=github)](https://corvus-rom.github.io/)
@@ -32,8 +32,6 @@ lunch corvus_device-userdebug
 # Build the ROM
 make corvus
 ```
-# Corvus Forums Template
-[![Corvus_Forums-Template](https://raw.githubusercontent.com/SahilKhatkar11/Corvus_forums-logo/main/Corvus_Forums_Logo.png)](https://raw.githubusercontent.com/Corvus-ROM/android_manifest/12/corvus_forums)
 
 # Maintainership form
 [![Form](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Submission_button.png)](https://docs.google.com/forms/d/e/1FAIpQLSeOEzQXfNnPehPQRXxmt3L5FYc5neOhEE3m6ZW_xbIuuQ-dCg/viewform?usp=sf_link)
@@ -43,8 +41,4 @@ make corvus
 
  Credits:
  =======
-
- * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
- * [**PixelExperience**](https://github.com/PixelExperience)
- * [**HavocOS**](https://github.com/Havoc-OS)
- * [**LineageOS**](https://github.com/LineageOS/)
+ Kudos to every Amazing rom out there who've relentlessly contributed to the Open Source beauty of Android!
