@@ -64,6 +64,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="corvus" revision="12-test" />
   <project path="frameworks/base" name="android_frameworks_base_test" remote="corvus" revision="12L" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="corvus" revision="12-test" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="corvus" />
 
   <!-- Device -->
   <project path="device/corvus/sepolicy" name="android_device_corvus_sepolicy" remote="corvus" revision="12-test" />
