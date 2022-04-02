@@ -98,7 +98,6 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/services/Telecomm" />
