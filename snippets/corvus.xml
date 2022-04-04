@@ -99,6 +99,7 @@
   <project path="system/media" name="android_system_media" remote="corvus" revision="12-test" />
   <project path="system/qcom" name="android_system_qcom" remote="corvus" />
   <project path="system/update_engine" name="android_system_update_engine" remote="corvus" revision="12-test" />
+  <project path="system/security" name="android_system_security" remote="corvus" />
 
   <!-- Prebuilts
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="corvus" clone-depth="1" />
