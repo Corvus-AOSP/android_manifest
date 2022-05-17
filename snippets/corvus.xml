@@ -55,6 +55,7 @@
   <project path="external/themelib" name="android_external_themelib" groups="pdk" remote="corvus" />
   <project path="external/jemalloc_new" name="ProtonAOSP/android_external_jemalloc_new" remote="gh" revision="sc" />
   <project path="external/faceunlock" name="StarkDroid/external_faceunlock" remote="gitlab" revision="12" />
+  <project path="external/AndroidSystemBlur" name="Lucchetto/AndroidSystemBlur" remote="gh" revision="master" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" revision="12-test" />
@@ -77,16 +78,13 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="corvus" revision="12-test" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="corvus" />
-  <project path="hardware/corvus/interfaces" name="android_hardware_corvus_interfaces" remote="corvus" />
+  <project path="hardware/corvus/interfaces" name="android_hardware_corvus_interfaces" remote="corvus" revision="12-test"/>
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="corvus" revision="12"/>
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="corvus" revision="12-caf" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="corvus" revision="12-caf"/>
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="corvus" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="corvus" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="corvus" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="corvus" revision="12-8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="corvus" revision="12-8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="corvus" revision="12-8150" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="corvus" revision="12-test" />
@@ -101,15 +99,11 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="corvus" revision="12-test" />
   <project path="system/security" name="android_system_security" remote="corvus" />
 
-  <!-- Prebuilts
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="corvus" clone-depth="1" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="corvus" clone-depth="1" />
-  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="corvus" /> -->
+  <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" /> 
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="corvus" revision="12-test" />
-  <project path="packages/apps/CorvusWalls" name="android_packages_apps_CorvusWalls" remote="corvus" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="corvus" revision="12-test" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="corvus" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="corvus" revision="12L" />
@@ -121,15 +115,14 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="corvus" revision="12-test" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="corvus" revision="12-test" />
   <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="gh" revision="twelve" />
-  <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="corvus" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="corvus" />
+  <project path="packages/apps/TouchGestures" name="PixelExperience/packages_apps_TouchGestures" remote="gh" revision="twelve" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="corvus" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="corvus" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="corvus" revision="12-test" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="corvus" revision="12-test" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="corvus" revision="12-test" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="corvus" revision="12-test" />
-
-  <!-- Tools repos -->
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="corvus" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="corvus" />
@@ -141,7 +134,7 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="corvus" revision="12-test" />
 
   <!-- Gapps -->
-  <project path="vendor/google/gms" name="kosp/vendor_google_gms" remote="gitlab" revision="A12" clone-depth="1" />
-  <project path="vendor/google/pixel" name="kosp/vendor_google_pixel" remote="gitlab" revision="A12" clone-depth="1" />
+  <project path="vendor/google/gms" name="StarkDroid/vendor_google_gms" remote="gitlab" revision="12.1" clone-depth="1" />
+  <project path="vendor/google/pixel" name="syberia-project/platform_vendor_google_pixel" remote="gitlab" revision="12.1" clone-depth="1" />
   
 </manifest>
