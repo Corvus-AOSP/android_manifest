@@ -132,6 +132,7 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="corvus" revision="12-test" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="corvus" />
 
   <!-- Gapps -->
   <project path="vendor/google/gms" name="StarkDroid/vendor_google_gms" remote="gitlab" revision="12.1" clone-depth="1" />
