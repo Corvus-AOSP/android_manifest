@@ -137,6 +137,6 @@
 
   <!-- Gapps -->
   <project path="vendor/google/gms" name="StarkDroid/vendor_google_gms" remote="gitlab" revision="12.1" clone-depth="1" />
-  <project path="vendor/google/pixel" name="syberia-project/platform_vendor_google_pixel" remote="gitlab" revision="12.1" clone-depth="1" />
+  <project path="vendor/google/pixel" name="StarkDroid/vendor_google_pixel" remote="gitlab" revision="12.1" clone-depth="1" />
   
 </manifest>
