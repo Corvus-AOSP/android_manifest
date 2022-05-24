@@ -7,6 +7,10 @@
   <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
+           
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="twelve" />
 
   <remote name="corvus"
         fetch="https://github.com/Corvus-R/"
@@ -15,7 +19,7 @@
 
   <remote  name="device"
            fetch="https://github.com/CorvusRom-Devices"
-           revision="12" />
+           revision="12L" />
 
   <project path="art" name="android_art" remote="corvus" revision="12-test" />
   <project path="bionic" name="android_bionic" remote="corvus" revision="12-test" />
