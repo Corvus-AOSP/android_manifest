@@ -58,9 +58,7 @@
   <project path="external/AndroidSystemBlur" name="Lucchetto/AndroidSystemBlur" remote="gh" revision="master" />
 
   <!-- Frameworks -->
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" revision="12-test" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="corvus" revision="12-test" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="corvus" revision="12-test" />
   <project path="frameworks/av" name="android_frameworks_av" remote="corvus" revision="12-test" />
   <project path="frameworks/native" name="android_frameworks_native" remote="corvus" revision="12-test" />
   <project path="frameworks/base" name="android_frameworks_base" remote="corvus" revision="12L" />
@@ -92,7 +90,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="corvus" revision="12-test" />
   <project path="system/vold" name="android_system_vold" remote="corvus" revision="12-test" />
   <project path="system/bt" name="android_system_bt" remote="corvus" revision="12-test" />
-  <project path="system/netd" name="android_system_netd" remote="corvus" revision="12-test" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="corvus" />
   <project path="system/media" name="android_system_media" remote="corvus" revision="12-test" />
   <project path="system/qcom" name="android_system_qcom" remote="corvus" />
