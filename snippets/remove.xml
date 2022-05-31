@@ -123,7 +123,6 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- System -->
   <remove-project name="platform/system/tools/mkbootimg" />
