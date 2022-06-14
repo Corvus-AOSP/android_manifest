@@ -6,10 +6,10 @@
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.1.0_r8"
            remote="aosp"
-           sync-j="8"
+           sync-j="4"
            sync-c="true"
            sync-d="true"
-	   sync-f="true"/>
+	         sync-f="true"/>
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -1114,6 +1114,6 @@
   <!-- Corvus OS Changes -->
   <include name="snippets/remove.xml" />
   <include name="snippets/corvus.xml" />
-  <include name="snippets/lineage.xml" />
+  <include name="snippets/extras.xml" />
 
 </manifest>
