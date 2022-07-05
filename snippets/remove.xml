@@ -67,7 +67,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/art" />
-  <remove-project name="platform/libcore" />
 
   <!-- Build -->
   <remove-project name="platform/build" />
@@ -81,8 +80,13 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/armnn" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -98,11 +102,11 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -114,18 +118,13 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   
-
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
@@ -145,5 +144,6 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/libhidl" />
 
 </manifest>

@@ -4,17 +4,15 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-12.1.0_r8"
+  <default revision="refs/tags/android-12.1.0_r22"
            remote="aosp"
            sync-j="4"
-           sync-c="true"
-           sync-d="true"
-	         sync-f="true"/>
+           sync-c="true" />
 
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r8" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -188,7 +186,7 @@
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
-  <project path="external/erofs-utils" name="platform/external/erofs-utils" groups="pdk" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" groups="pdk" revision="75d73335d25d52afd6a09c116207cd09bece16ab"/>
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/escapevelocity" name="platform/external/escapevelocity" groups="pdk" />
   <project path="external/ethtool" name="platform/external/ethtool" groups="pdk" />
