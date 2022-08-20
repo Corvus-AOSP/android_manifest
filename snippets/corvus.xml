@@ -17,10 +17,6 @@
            fetch="https://github.com/CorvusRom-Devices"
            revision="12L" />
 
-  <remote name="corvus"
-        fetch="https://github.com/Corvus-R/"
-        revision="refs/heads/12" />
-
   <project path="art" name="android_art" remote="corvus" />
   <project path="bionic" name="android_bionic" remote="corvus" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" revision="12-test" />
