@@ -17,10 +17,6 @@
            fetch="https://github.com/CorvusRom-Devices"
            revision="12L" />
 
-  <remote name="corvus"
-        fetch="https://github.com/Corvus-R/"
-        revision="refs/heads/12" />
-
   <project path="art" name="android_art" remote="corvus" />
   <project path="bionic" name="android_bionic" remote="corvus" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" revision="12-test" />
@@ -103,7 +99,7 @@
 
   <!-- Vendor -->
   <project path="vendor/themes" name="android_vendor_themes" remote="corvus" />
-  <project path="vendor/corvus" name="android_vendor_corvus" remote="corvus" revision="12-test" />
+  <project path="vendor/corvus" name="vendor_corvus" remote="corvus" revision="12-test" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="corvus" revision="12-test" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="corvus" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="corvus" />
