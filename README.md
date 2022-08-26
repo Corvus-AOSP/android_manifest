@@ -1,6 +1,6 @@
 ### Corvus ROM ###
 
-![CorvusROM](https://raw.githubusercontent.com/Corvus-R/android_manifest/12-test/corvus_banner.png)
+![CorvusROM](https://raw.githubusercontent.com/Corvus-AOSP/android_manifest/13/corvus_banner.png)
 <p align="center">
 
 [![Sourceforge](https://img.shields.io/sourceforge/dm/corvus-os?color=1d91f0&label=RavenLair%20downloads&style=for-the-badge&labelColor=121217&logo=github)](https://corvus-rom.github.io/)
@@ -8,12 +8,12 @@
 
 # Initialize Local Repository #
 ```bash
-repo init -u https://github.com/Corvus-R/android_manifest.git -b 12-test
+repo init -u https://github.com/Corvus-AOSP/android_manifest.git -b 13
 ```
 
 # Or Initialize Shallow Clone #
 ```bash
-repo init --depth=1 -u https://github.com/Corvus-R/android_manifest.git -b 12-test
+repo init --depth=1 -u https://github.com/Corvus-AOSP/android_manifest.git -b 13
 ```
 
 # Syncing Repository # 

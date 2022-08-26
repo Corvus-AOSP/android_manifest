@@ -1170,13 +1170,11 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
-
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  <!-- END open-source projects -->
 
   <!-- Corvus OS Changes -->
   <include name="snippets/remove.xml" />
   <include name="snippets/corvus.xml" />
   <include name="snippets/extras.xml" />
 
-  <!-- END open-source projects -->
 </manifest>
