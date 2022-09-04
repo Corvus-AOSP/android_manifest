@@ -9,7 +9,7 @@
            fetch="https://gitlab.com/" />
 		
   <remote name="corvus"
-        fetch="https://github.com/Corvus-R/"
+        fetch="https://github.com/Corvus-AOSP/"
         review="review.corvusrom.com"
         revision="refs/heads/11" />
 
@@ -28,7 +28,7 @@
   <project path="libcore" name="android_libcore" remote="corvus" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="corvus" >
+  <project path="build/make" name="Corvus-Q/android_build" remote="github" revision="11">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -54,11 +54,11 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="corvus" />
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="corvus" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="corvus" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" remote="aosp" />
   <project path="external/sqlite" name="android_external_sqlite" remote="corvus" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="corvus" />
   <project path="external/lz4" name="android_external_lz4" remote="corvus" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="corvus" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github" revision="lineage-18.1" />
   <project path="external/skia" name="android_external_skia" remote="corvus" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="corvus" />
   <project path="external/vixl" name="android_external_vixl" remote="corvus" />
