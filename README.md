@@ -8,12 +8,12 @@
 
 # Initialize Local Repository #
 ```bash
-repo init -u https://github.com/Corvus-R/android_manifest.git -b 11
+repo init -u https://github.com/Corvus-AOSP/android_manifest.git -b 11
 ```
 
 # Or Initialize Shallow Clone #
 ```bash
-repo init --depth=1 -u https://github.com/Corvus-R/android_manifest.git -b 11
+repo init --depth=1 -u https://github.com/Corvus-AOSP/android_manifest.git -b 11
 ```
 
 # Syncing Repository # 
@@ -38,7 +38,7 @@ make corvus
 # Maintainership form
 [![Form](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Submission_button.png)](https://docs.google.com/forms/d/e/1FAIpQLSeOEzQXfNnPehPQRXxmt3L5FYc5neOhEE3m6ZW_xbIuuQ-dCg/viewform?usp=sf_link)
 
-# Telegram Support 
+# Telegram Support
 [![Telegram](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Telegram_button.png)](https://t.me/CorvusCommunityOfficial)
 
  Credits:
