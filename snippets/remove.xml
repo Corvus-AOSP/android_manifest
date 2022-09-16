@@ -51,6 +51,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/libs/net" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -66,9 +67,11 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
