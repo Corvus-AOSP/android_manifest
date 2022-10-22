@@ -95,6 +95,7 @@
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" clone-depth="1" remote="arrow" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/clang/host/linux-x86/weebx-clang" name="XSans0/weebx-clang" remote="gitlab" revision="release/15-gr" clone-depth="1" />
 
   <!-- Tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
