@@ -33,6 +33,8 @@
   </project>
 
   <!-- External -->
+  <project path="external/colorkt" name="android_external_colorkt" remote="corvus" />
+  <project path="external/themelib" name="android_external_themelib" remote="corvus" />
   <project path="external/selinux" name="android_external_selinux" remote="corvus" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
 
