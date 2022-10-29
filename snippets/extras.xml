@@ -9,6 +9,8 @@
            fetch="https://github.com/ArrowOS/"
            revision="arrow-13.0" />
 
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
   <!-- External -->
   <project path="external/exfatprogs" name="android_external_exfatprogs" groups="pdk" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
