@@ -84,7 +84,7 @@
 
   <!-- Vendor -->
   <project path="vendor/themes" name="android_vendor_themes" remote="gitlab" />
-  <project path="vendor/corvus" name="vendor_corvus" remote="gitlab" />
+  <project path="vendor/corvus" name="android_vendor_corvus" remote="gitlab" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="corvus" />
   
 </manifest>
