@@ -21,7 +21,7 @@
   <project path="manifest" name="android_manifest" remote="corvus" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="corvus">
+  <project path="build/make" name="android_build" remote="gitlab-corvus">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,7 +31,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
 
-  <project path="build/soong" name="android_build_soong" remote="corvus">
+  <project path="build/soong" name="android_build_soong" remote="gitlab-corvus">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -46,8 +46,8 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="corvus" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
   <project path="frameworks/base" name="android_frameworks_base" remote="gitlab-corvus" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="corvus" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="corvus" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="gitlab-corvus" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="gitlab-corvus" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="corvus" />
   
   <!-- Hardware -->
@@ -77,7 +77,7 @@
   <project path="device/corvus/sepolicy" name="android_device_corvus_sepolicy" remote="corvus" />
 
   <!-- System -->
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="corvus" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="gitlab-corvus" />
   <project path="system/vold" name="android_system_vold" remote="corvus" />
   <project path="system/core" name="android_system_core" remote="corvus" />
   <project path="system/update_engine" name="android_system_update_engine" remote="corvus" />
