@@ -8,12 +8,12 @@
 
 # Initialize Local Repository #
 ```bash
-repo init -u https://github.com/Corvus-AOSP/android_manifest.git -b 13
+repo init -u git@gitlab.com:ProjectParadox/manifest.git -b 13
 ```
 
 # Or Initialize Shallow Clone #
 ```bash
-repo init --depth=1 -u https://github.com/Corvus-AOSP/android_manifest.git -b 13
+repo init --depth=1 -u git@gitlab.com:ProjectParadox/manifest.git -b 13
 ```
 
 # Syncing Repository # 
