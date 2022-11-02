@@ -80,6 +80,9 @@
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-13.0-caf" />
 
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-20.0-legacy-um" />
+  
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="arrow" />
