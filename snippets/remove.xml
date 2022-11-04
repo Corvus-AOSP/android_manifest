@@ -35,6 +35,11 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-sepolicy" />
+  <remove-project name="device/google/pantah-kernel" />
+  <remove-project name="device/google/gs201" />
+  <remove-project name="device/google/gs201-sepolicy" />
 
   <!-- external -->
   <remove-project name="platform/external/e2fsprogs" />
