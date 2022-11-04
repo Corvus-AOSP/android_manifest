@@ -4,7 +4,7 @@
   <remote name="gh" fetch="https://github.com/" />
 
   <remote  name="gitlab-corvus"
-           fetch="https://gitlab.com/ProjectParadox"
+           fetch="ssh://git@gitlab.com/ProjectParadox"
            revision="refs/heads/13" />
 
   <remote name="corvus"
