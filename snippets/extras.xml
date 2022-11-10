@@ -106,6 +106,7 @@
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
+  <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="gh" revision="thirteen" />
 
   <!-- Vendor repos -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
