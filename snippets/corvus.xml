@@ -73,6 +73,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="corvus" />
 
   <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="corvus" revision="13-legacy-um"/>
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy" groups="qcom,lahaina" remote="corvus" revision="13-vndr-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="corvus" revision="13-vndr"/>
   <project path="device/corvus/sepolicy" name="android_device_corvus_sepolicy" remote="corvus" />
