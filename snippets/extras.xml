@@ -89,7 +89,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
   <project path="system/security" name="android_system_security" remote="arrow" />
-  <project path="system/libhidl" name="android_system_libhidl" remote="arrow" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="corvus" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" clone-depth="1" remote="arrow" />
