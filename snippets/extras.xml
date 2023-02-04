@@ -20,13 +20,13 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="arrow" />
-  <project path="external/rust/cxx" name="yaap/external_rust_cxx" remote="gh" />
-  <project path="external/rust/crates/ring" name="yaap/external_rust_crates_ring" remote="gh" />
+  <project path="external/rust/cxx" name="yaap/external_rust_cxx" remote="gh" revision="thirteen" />
+  <project path="external/rust/crates/ring" name="yaap/external_rust_crates_ring" remote="gh" revision="thirteen" />
   <project path="external/libjpeg-turbo" name="yaap/external_libjpeg-turbo" remote="gh" revision="thirteen" />
-  <project path="external/libpng" name="yaap/external_libpng" remote="gh" />
-  <project path="external/zlib-ng" name="yaap/external_zlib-ng" remote="gh" />
-  <project path="external/lz4" name="yaap/external_lz4" remote="gh" />
-  <project path="external/jemalloc_new" name="yaap/external_jemalloc_new" remote="gh" />
+  <project path="external/libpng" name="yaap/external_libpng" remote="gh" revision="thirteen" />
+  <project path="external/zlib-ng" name="yaap/external_zlib-ng" remote="gh" revision="thirteen" />
+  <project path="external/lz4" name="yaap/external_lz4" remote="gh" revision="thirteen" />
+  <project path="external/jemalloc_new" name="yaap/external_jemalloc_new" remote="gh" revision="thirteen" />
   <project path="external/sqlite" name="yaap/external_sqlite" remote="gh" revision="thirteen" />
   <project path="external/arm-optimized-routines" name="yaap/external_arm-optimized-routines" remote="gh" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
@@ -91,17 +91,16 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="lineage" />
 
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="arrow" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="arrow" />
-  <project path="system/logging" name="yaap/system_logging" remote="gh" />
-  <project path="system/linkerconfig" name="yaap/system_linkerconfig" remote="gh" />
+  <project path="system/logging" name="yaap/system_logging" remote="gh" revision="thirteen" />
+  <project path="system/linkerconfig" name="yaap/system_linkerconfig" remote="gh" revision="thirteen" />
   <project path="system/memory/lmkd" name="yaap/system_memory_lmkd" remote="gh" revision="thirteen" />
-  <project path="system/netd" name="yaap/system_netd" remote="gh" />
-  <project path="system/apex" name="yaap/system_apex" remote="gh" />
+  <project path="system/netd" name="yaap/system_netd" remote="gh" revision="thirteen" />
+  <project path="system/apex" name="yaap/system_apex" remote="gh" revision="thirteen" />
   <project path="system/media" name="android_system_media" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
