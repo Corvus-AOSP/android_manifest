@@ -20,6 +20,15 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="arrow" />
+  <project path="external/rust/cxx" name="yaap/external_rust_cxx" remote="gh" />
+  <project path="external/rust/crates/ring" name="yaap/external_rust_crates_ring" remote="gh" />
+  <project path="external/libjpeg-turbo" name="yaap/external_libjpeg-turbo" remote="gh" revision="thirteen" />
+  <project path="external/libpng" name="yaap/external_libpng" remote="gh" />
+  <project path="external/zlib-ng" name="yaap/external_zlib-ng" remote="gh" />
+  <project path="external/lz4" name="yaap/external_lz4" remote="gh" />
+  <project path="external/jemalloc_new" name="yaap/external_jemalloc_new" remote="gh" />
+  <project path="external/sqlite" name="yaap/external_sqlite" remote="gh" revision="thirteen" />
+  <project path="external/arm-optimized-routines" name="yaap/external_arm-optimized-routines" remote="gh" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
@@ -80,11 +89,19 @@
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-13.0-caf" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="lineage" />
+
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="arrow" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="arrow" />
-  <project path="system/logging" name="android_system_logging" remote="arrow" />
+  <project path="system/logging" name="yaap/system_logging" remote="gh" />
+  <project path="system/linkerconfig" name="yaap/system_linkerconfig" remote="gh" />
+  <project path="system/memory/lmkd" name="yaap/system_memory_lmkd" remote="gh" revision="thirteen" />
+  <project path="system/netd" name="yaap/system_netd" remote="gh" />
+  <project path="system/apex" name="yaap/system_apex" remote="gh" />
   <project path="system/media" name="android_system_media" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
@@ -106,8 +123,11 @@
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="gh" revision="thirteen" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lineage" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
 
   <!-- Vendor repos -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
   <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="arrow" />
   <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="arrow" />
