@@ -41,7 +41,6 @@
   <!-- External -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
   <project path="external/faceunlock" name="StarkDroid/external_faceunlock" remote="gitlab" revision="12" />
-  <project path="external/external_arm-optimized-routines" name="yaap/external_arm-optimized-routines" remote="gh" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="gitlab-corvus" revision="qpr-release" />
