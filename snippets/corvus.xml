@@ -81,8 +81,8 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="corvus" />
 
   <!-- Vendor -->
-  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab-corvus" clone-depth="1" />
-  <project path="vendor/pixel" name="android_vendor_pixel" remote="gitlab-corvus" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_google_gms" remote="gitlab-corvus" clone-depth="1" />
+  <project path="vendor/pixel" name="vendor_google_pixel" remote="gitlab-corvus" clone-depth="1" />
   <project path="vendor/themes" name="android_vendor_themes" remote="gitlab-corvus" />
   <project path="vendor/corvus" name="android_vendor_corvus" remote="gitlab-corvus" revision="next-release" />
   
