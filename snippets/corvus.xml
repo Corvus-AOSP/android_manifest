@@ -60,6 +60,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="gitlab-corvus" revision="qpr-release" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="corvus" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="gitlab-corvus" revision="qpr-release" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="corvus" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="corvus" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="corvus" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="corvus" />
