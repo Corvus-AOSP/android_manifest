@@ -28,6 +28,8 @@
   <project path="external/lz4" name="yaap/external_lz4" remote="gh" revision="thirteen" />
   <project path="external/jemalloc_new" name="yaap/external_jemalloc_new" remote="gh" revision="thirteen" />
   <project path="external/sqlite" name="yaap/external_sqlite" remote="gh" revision="thirteen" />
+  <project path="external/libfuse" name="yaap/external_libfuse" remote="gh" revision="thirteen" />
+  <project path="external/protobuf" name="yaap/external_protobuf" remote="gh" revision="thirteen" />
   <project path="external/arm-optimized-routines" name="yaap/external_arm-optimized-routines" remote="gh" revision="thirteen" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
