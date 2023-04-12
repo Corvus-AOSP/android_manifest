@@ -43,7 +43,7 @@
   <project path="external/faceunlock" name="StarkDroid/external_faceunlock" remote="gitlab" revision="12" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="gitlab-corvus" revision="qpr-release" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="gitlab-corvus" revision="qpr2-release" />
   <project path="frameworks/av" name="android_frameworks_av" remote="gitlab-corvus" revision="next-release" />
   <project path="frameworks/native" name="android_frameworks_native" remote="gitlab-corvus" revision="next-release" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="corvus" />
