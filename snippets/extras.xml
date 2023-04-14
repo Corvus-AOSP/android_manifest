@@ -16,7 +16,6 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="arrow" />
-  <project path="external/f2fs-tools" name="yaap/external_f2fs-tools" groups="pdk" remote="gitlab" revision="thirteen" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="arrow" />
