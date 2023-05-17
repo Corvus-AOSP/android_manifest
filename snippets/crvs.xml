@@ -21,6 +21,8 @@
            fetch="https://github.com/CorvusRom-Devices"
            revision="11" />
 
+
+  <project path="android" name="android_manifest" remote="corvus" />
   <project path="bionic" name="android_bionic" remote="corvus" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" />
   <project path="development" name="android_development" remote="corvus" />
@@ -28,7 +30,7 @@
   <project path="libcore" name="android_libcore" remote="corvus" />
 
   <!-- Build -->
-  <project path="build/make" name="Corvus-Q/android_build" remote="github" revision="11">
+  <project path="build/make" name="CorvusOS-Revived/android_build" remote="github" revision="11">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
