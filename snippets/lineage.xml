@@ -29,6 +29,8 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" />
   <project path="external/tremolo" name="android_external_tremolo" remote="lineage" />
+  <project path="external/libavc" name="android_external_libavc" remote="lineage" />
+  <project path="external/libexif" name="android_external_libexif" remote="lineage" />
 
 
   <!-- Hardware -->
@@ -60,8 +62,8 @@
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="lineage" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lineage" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="lineage" />
-  <project path="packages/apps/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
-  <project path="packages/apps/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
 
    <!-- Vendor repos -->
    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
