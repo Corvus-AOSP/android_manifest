@@ -32,6 +32,7 @@
   <project path="external/libavc" name="android_external_libavc" remote="lineage" />
   <project path="external/libexif" name="android_external_libexif" remote="lineage" />
   <project path="external/aac" name="android_external_aac" remote="lineage" />
+  <project path="external/expat" name="android_external_expat" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
