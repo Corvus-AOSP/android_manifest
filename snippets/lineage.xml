@@ -104,4 +104,7 @@
    <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
    <project path="system/nfc" name="android_system_nfc" remote="lineage" />
 
+   <!-- Frameworks -->
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
+
  </manifest>
