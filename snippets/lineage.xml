@@ -34,6 +34,7 @@
   <project path="external/aac" name="android_external_aac" remote="lineage" />
   <project path="external/expat" name="android_external_expat" remote="lineage" />
   <project path="external/dtc" name="android_external_dtc" remote="lineage" />
+  <project path="external/freetype" name="android_external_freetype" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
@@ -103,6 +104,7 @@
    <!-- System Repos -->
    <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
    <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
+   <project path="tools/apksig" name="android_tools_apksig" remote="lineage" />
    <project path="system/nfc" name="android_system_nfc" remote="lineage" />
 
    <!-- Frameworks -->
