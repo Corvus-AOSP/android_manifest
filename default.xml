@@ -1199,9 +1199,9 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
 
-  <!-- Corvus OS Changes
+  <!-- Corvus OS Changes 
+  <include name="snippets/corvus.xml" /> -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/corvus.xml" />  -->
   <include name="snippets/extras.xml" />
 
 </manifest>

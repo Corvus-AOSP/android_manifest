@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gh" fetch="https://github.com/" />
+
   <remote  name="lineage"
            fetch="https://github.com/LineageOS/"
            revision="lineage-20.0" />
@@ -35,8 +37,8 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
 
-  <!-- Hardware -->
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="lineage" />
+  <!-- Hardware
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="lineage" />  -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
