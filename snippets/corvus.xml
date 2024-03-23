@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gh" fetch="https://github.com/" />
+
+  <remote  name="gitlab-corvus"
+           fetch="ssh://git@gitlab.com/ProjectParadox"
+           revision="refs/heads/13" />
+
+  <remote name="corvus"
+        fetch="https://github.com/Corvus-AOSP/"
+        review="review.corvusrom.com"
+        revision="refs/heads/13" />
+
+  <remote  name="device"
+           fetch="https://github.com/CorvusRom-Devices"
+           revision="13" />
+
+  <project path="art" name="android_art" remote="gitlab-corvus" revision="next-release" />
+  <project path="bionic" name="android_bionic" remote="gitlab-corvus" revision="next-release" />
+  <project path="libcore" name="android_libcore" remote="corvus" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" />
+  <project path="manifest" name="android_manifest" remote="corvus" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="gitlab-corvus" revision="next-release">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+
+  <project path="build/soong" name="android_build_soong" remote="gitlab-corvus" revision="next-release">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
+  <project path="external/faceunlock" name="StarkDroid/external_faceunlock" remote="gitlab" revision="12" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="gitlab-corvus" revision="qpr2-release" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="gitlab-corvus" revision="next-release" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="gitlab-corvus" revision="next-release" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="corvus" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="corvus" />
+  
+  <!-- Hardware -->
+  <project path="hardware/corvus/interfaces" name="android_hardware_corvus_interfaces" remote="corvus" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="corvus" />
+
+  <!-- Packages -->
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="corvus" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="gitlab-corvus" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="corvus" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="gitlab-corvus" revision="qpr-release" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="corvus" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="gitlab-corvus" revision="qpr-release" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="corvus" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="corvus" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="corvus" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="corvus" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="corvus" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="corvus" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="corvus" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="corvus" />
+
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="corvus" revision="13-legacy-um"/>
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy" groups="qcom,lahaina" remote="corvus" revision="13-vndr-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy" remote="corvus" revision="13-vndr"/>
+  <project path="device/corvus/sepolicy" name="android_device_corvus_sepolicy" remote="corvus" />
+
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="gitlab-corvus" />
+  <project path="system/vold" name="android_system_vold" remote="corvus" />
+  <project path="system/core" name="android_system_core" remote="gitlab-corvus" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="corvus" />
+
+  <!-- Vendor -->
+  <project path="vendor/gms" name="vendor_google_gms" remote="gitlab-corvus" clone-depth="1" revision="thirteen" />
+  <project path="vendor/pixel" name="vendor_google_pixel" remote="gitlab-corvus" clone-depth="1" revision="thirteen" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="gitlab-corvus" />
+  <project path="vendor/corvus" name="android_vendor_corvus" remote="gitlab-corvus" revision="next-release" />
+  
+  
+</manifest>
